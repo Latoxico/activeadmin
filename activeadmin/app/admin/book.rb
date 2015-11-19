@@ -7,6 +7,10 @@ ActiveAdmin.register Book do
 #
 # or
 #
+index do 
+    
+end
+    
  permit_params :name ,:author ,:description,:photo
  
     form do |f|
